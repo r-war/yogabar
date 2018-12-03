@@ -1,0 +1,1 @@
+ALTER TABLE `user_events_registration` ADD `emr_relation` VARCHAR(50) NOT NULL AFTER `cur_date`, ADD `injury` ENUM('Yes','No') NOT NULL AFTER `emr_relation`, ADD `injury_des` TEXT NOT NULL AFTER `injury`, ADD `yoga` INT(10) NOT NULL AFTER `injury_des`, ADD `ytt` ENUM('Yes','No') NOT NULL AFTER `yoga`;

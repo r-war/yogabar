@@ -1,0 +1,29 @@
+.web_soical-media ul{
+    width: 10%;
+}
+.white-bg{
+	height: 500px;
+	overflow-y: scroll;
+}
+.gallery{
+	background-color: #FFF;
+}
+.single-item{
+	display: inline-block;
+	margin: 20px 0px;
+}
+.single-item img{
+	width: 100%;
+}
+.portfolio-filter li{
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.text p{
+	text-align: justify;
+}

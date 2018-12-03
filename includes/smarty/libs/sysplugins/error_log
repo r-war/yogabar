@@ -1,0 +1,6 @@
+[29-May-2018 04:51:17 America/Chicago] PHP Fatal error:  Class 'Smarty_Resource' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_resource_file.php on line 19
+[29-May-2018 04:51:36 America/Chicago] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_templatebase.php on line 18
+[29-May-2018 04:51:43 America/Chicago] PHP Fatal error:  Class 'Smarty_Internal_TemplateBase' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 22
+[29-May-2018 04:52:17 America/Chicago] PHP Fatal error:  Class 'Smarty_Resource' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_resource_file.php on line 19
+[29-May-2018 04:52:37 America/Chicago] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_templatebase.php on line 18
+[29-May-2018 04:52:43 America/Chicago] PHP Fatal error:  Class 'Smarty_Internal_TemplateBase' not found in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 22

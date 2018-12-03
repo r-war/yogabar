@@ -1,0 +1,7 @@
+# Set a default home directory, (this subfolder always loads)
+# Replace 'folder' with your subfolder name
+DirectoryIndex index.html index.shtml index.php default.html home.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^$ /web/ [R=301,L]
+</IfModule>

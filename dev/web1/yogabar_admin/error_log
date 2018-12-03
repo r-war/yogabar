@@ -1,0 +1,33 @@
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 6
+[24-Sep-2015 07:09:01 America/Chicago] PHP Notice:  Error: Could not make a database link (1045) Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 9
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/yogabar/public_html/beta/includes/MySQLi.php on line 57
+[13-Oct-2015 04:48:59 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{else if($package['group_type_id'] == 2)}Private Class{else}Room Rental {/if}</td>" unknown function "if" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30
+[13-Oct-2015 04:50:00 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{elseif($package['group_type_id'] == 2)} Private Class {else} Room Rental {/if}</td>" unknown function "elseif" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30
+[25-Oct-2015 07:15:07 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5265.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[25-Oct-2015 07:15:15 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5410.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[25-Oct-2015 22:50:57 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5265.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[09-Dec-2015 02:03:58 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/year end bundle.jpg): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[02-Jun-2016 02:42:07 America/Chicago] PHP Notice:  Error: Table 'yogabar_testdb.coupon' doesn't exist<br />Error No: 1146<br />INSERT INTO coupon SET code='dd322', discount='40%', created_at=now(), updated_at=now(); in /home/yogabar/public_html/dev/includes/MySQLi.php on line 40
+[02-Jun-2016 03:03:34 America/Chicago] PHP Notice:  Error: Table 'yogabar_testdb.faq' doesn't exist<br />Error No: 1146<br />SELECT * FROM faq where is_active=1 in /home/yogabar/public_html/dev/includes/MySQLi.php on line 40
+[02-Jun-2016 03:03:34 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, null given in /home/yogabar/public_html/dev/web/yogabar_admin/faq_add.php on line 8
+[02-Jun-2016 03:03:42 America/Chicago] PHP Notice:  Error: Table 'yogabar_testdb.faq' doesn't exist<br />Error No: 1146<br />SELECT * FROM faq where is_active=1 in /home/yogabar/public_html/dev/includes/MySQLi.php on line 40
+[02-Jun-2016 03:03:42 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, null given in /home/yogabar/public_html/dev/web/yogabar_admin/faq_add.php on line 8
+[02-Jun-2016 03:16:01 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/coupon.tpl' <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[25-Nov-2016 00:39:14 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/yogabar/public_html/dev/web/yogabar_admin/faq_add.php on line 8
+[03-Jan-2017 00:05:38 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/dev/templates/default/admin/package.tpl"  on line 60 "var ids=$(this).attr('lang') ;"  - Unexpected ";
+
+     " <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 60
+[29-Jan-2017 10:29:49 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/yogabar/public_html/dev/web/yogabar_admin/faq_add.php on line 8
+[29-Jan-2017 23:00:28 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/yogabar/public_html/dev/web/yogabar_admin/faq_add.php on line 8
+[04-Feb-2017 04:11:48 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/report.tpl' <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[04-Feb-2017 06:13:09 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/dev/templates/default/admin/pack_unsub.tpl"  on line 64 "{/if}" unclosed {foreach} tag <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 64
+[04-Feb-2017 06:34:23 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/dev/templates/default/admin/pack_unsub.tpl"  on line 51 "{if {pak_Intervel_id}==1 } //subscription" unknown tag "pak_Intervel_id" <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 51
+[04-Feb-2017 06:35:09 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/dev/templates/default/admin/pack_unsub.tpl"  on line 51 "{if {pak_Intervel_id}==1 }" unknown tag "pak_Intervel_id" <-- 
+  thrown in /home/yogabar/public_html/dev/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 51

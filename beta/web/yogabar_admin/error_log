@@ -1,0 +1,7 @@
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 6
+[24-Sep-2015 07:09:01 America/Chicago] PHP Notice:  Error: Could not make a database link (1045) Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 9
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/yogabar/public_html/beta/includes/MySQLi.php on line 57
+[13-Oct-2015 04:48:59 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{else if($package['group_type_id'] == 2)}Private Class{else}Room Rental {/if}</td>" unknown function "if" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30
+[13-Oct-2015 04:50:00 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{elseif($package['group_type_id'] == 2)} Private Class {else} Room Rental {/if}</td>" unknown function "elseif" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30

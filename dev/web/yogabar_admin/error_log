@@ -1,0 +1,26 @@
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 6
+[24-Sep-2015 07:09:01 America/Chicago] PHP Notice:  Error: Could not make a database link (1045) Access denied for user 'root'@'localhost' (using password: YES) in /home/yogabar/public_html/beta/includes/MySQLi.php on line 9
+[24-Sep-2015 07:09:01 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/yogabar/public_html/beta/includes/MySQLi.php on line 57
+[13-Oct-2015 04:48:59 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{else if($package['group_type_id'] == 2)}Private Class{else}Room Rental {/if}</td>" unknown function "if" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30
+[13-Oct-2015 04:50:00 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/beta/templates/default/admin/package.tpl"  on line 30 "<td>{if ($package['group_type_id'] == 1)} Group Class{elseif($package['group_type_id'] == 2)} Private Class {else} Room Rental {/if}</td>" unknown function "elseif" <-- 
+  thrown in /home/yogabar/public_html/beta/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 30
+[25-Oct-2015 07:15:07 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5265.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[25-Oct-2015 07:15:15 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5410.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[25-Oct-2015 22:50:57 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/IMG_5265.JPG): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[09-Dec-2015 02:03:58 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/year end bundle.jpg): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[24-Feb-2016 05:41:23 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/Schedule_20160204_2.png): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[24-Feb-2016 07:03:09 America/Chicago] PHP Warning:  unlink(/home/yogabar/public_html/web/gallery/Schedule_20160204_2.png): No such file or directory in /home/yogabar/public_html/web/yogabar_admin/gallery.php on line 8
+[26-Apr-2016 06:05:25 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/yogabar/public_html/web/yogabar_admin/faq_add.php on line 8
+[26-Apr-2016 06:05:25 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/faq_add.tpl' <-- 
+  thrown in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[26-Apr-2016 06:06:24 America/Chicago] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, object given in /home/yogabar/public_html/web/yogabar_admin/faq_add.php on line 8
+[26-Apr-2016 06:06:24 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/faq_add.tpl' <-- 
+  thrown in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[26-Apr-2016 06:07:07 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/faq_add.tpl' <-- 
+  thrown in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[06-Jun-2016 03:07:35 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'admin/coupon_add.tpl' <-- 
+  thrown in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_template.php on line 219
+[14-Feb-2017 03:21:53 America/Chicago] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/home/yogabar/public_html/templates/default/admin/package.tpl"  on line 43 "<!-- <td><a href="package.php?id={$package['id']}" onclick="return confirm('Are You Sure?')">Delete</a></td> -->" unclosed {foreach} tag <-- 
+  thrown in /home/yogabar/public_html/includes/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 43
+[23-Mar-2017 13:55:52 America/Chicago] PHP Notice:  Error: Unknown column 'active' in 'field list'<br />Error No: 1054<br />SELECT id,code,dis_type_id,discount,DATE_FORMAT(coupon_from,'%d-%m-%Y') as coupon_from,DATE_FORMAT(coupon_to,'%d-%m-%Y') as coupon_to,created_at,updated_at,active FROM `coupon` order by id Desc in /home/yogabar/public_html/dev/includes/MySQLi.php on line 40
